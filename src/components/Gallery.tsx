@@ -35,6 +35,12 @@ const Gallery = () => {
       src: 'https://storage.googleapis.com/msgsndr/rlPIrRx253CZBZYwMMFj/media/689951c7efa0f049a2773a21.webp',
       title: 'Premium Exhibition Space',
       description: 'High-end trade show booth with custom fabrication'
+    },
+    {
+      id: 6,
+      src: 'https://storage.googleapis.com/msgsndr/rlPIrRx253CZBZYwMMFj/media/68998178872940ee932986b9.webp',
+      title: 'Dynamic Trade Show Display',
+      description: 'Innovative booth design with striking visual elements'
     }
   ];
 
