@@ -16,18 +16,18 @@ const Footer = () => {
               />
             </div>
             <p className="text-gray-300 mb-4 leading-relaxed">
-              Professional trade show management services with over 20 years of experience. 
+              Professional trade show management services with over 30 years of experience.
               Your success is our mission.
             </p>
             <div className="flex space-x-4">
               <a
-                href="tel:4085080297"
+                href="tel:2134443676"
                 className="w-10 h-10 brand-card rounded-lg flex items-center justify-center text-gray-300 hover:text-blue-400 transition-colors"
               >
                 <Phone className="w-5 h-5" />
               </a>
               <a
-                href="mailto:jason@form4design.com"
+                href="mailto:info@form4design.com"
                 className="w-10 h-10 brand-card rounded-lg flex items-center justify-center text-gray-300 hover:text-blue-400 transition-colors"
               >
                 <Mail className="w-5 h-5" />
@@ -62,14 +62,14 @@ const Footer = () => {
             <div className="space-y-3 text-gray-300">
               <div className="flex items-center">
                 <Phone className="w-5 h-5 mr-3 text-blue-400" />
-                <a href="tel:4085080297" className="hover:text-blue-400 transition-colors">
-                  (408) 508-0297
+                <a href="tel:2134443676" className="hover:text-blue-400 transition-colors">
+                  (213) 444-3676
                 </a>
               </div>
               <div className="flex items-center">
                 <Mail className="w-5 h-5 mr-3 text-blue-400" />
-                <a href="mailto:jason@form4design.com" className="hover:text-blue-400 transition-colors">
-                  jason@form4design.com
+                <a href="mailto:info@form4design.com" className="hover:text-blue-400 transition-colors">
+                  info@form4design.com
                 </a>
               </div>
               <div className="flex items-center">

@@ -7,16 +7,16 @@ const Contact = () => {
     {
       icon: Phone,
       label: 'Phone',
-      value: '(408) 508-0297',
-      href: 'tel:4085080297',
+      value: '(213) 444-3676',
+      href: 'tel:2134443676',
       color: 'from-green-500 to-emerald-500',
       glowColor: 'shadow-green-500/25'
     },
     {
       icon: Mail,
       label: 'Email',
-      value: 'jason@form4design.com',
-      href: 'mailto:jason@form4design.com',
+      value: 'info@form4design.com',
+      href: 'mailto:info@form4design.com',
       color: 'from-blue-500 to-cyan-500',
       glowColor: 'shadow-blue-500/25'
     },
@@ -101,7 +101,7 @@ const Contact = () => {
                 </li>
                 <li className="flex items-center">
                   <div className="w-2 h-2 rounded-full bg-blue-400 mr-3"></div>
-                  20+ years of industry experience and expertise
+                  30 years of industry experience and expertise
                 </li>
                 <li className="flex items-center">
                   <div className="w-2 h-2 rounded-full bg-blue-400 mr-3"></div>

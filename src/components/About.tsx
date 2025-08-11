@@ -1,14 +1,6 @@
 import React from 'react';
-import { Users, Award, Globe, CheckCircle } from 'lucide-react';
 
 const About = () => {
-  const stats = [
-    { icon: Users, label: 'Satisfied Clients', value: '1000+' },
-    { icon: Award, label: 'Years Experience', value: '30+' },
-    { icon: Globe, label: 'Cities Served', value: '50+' },
-    { icon: CheckCircle, label: 'Projects Completed', value: '2000+' }
-  ];
-
   const usps = [
     {
       title: 'Comprehensive Services',
@@ -72,24 +64,7 @@ const About = () => {
             </div>
           </div>
 
-          {/* Stats */}
-          <div className="grid grid-cols-2 gap-6">
-            {stats.map((stat, index) => {
-              const Icon = stat.icon;
-              return (
-                <div
-                  key={index}
-                  className="brand-card rounded-xl p-6 text-center transition-all duration-300 group hover:transform hover:scale-105 hover:shadow-xl"
-                >
-                  <div className="w-12 h-12 mx-auto mb-4 rounded-lg bg-gradient-to-r from-blue-600 to-purple-600 flex items-center justify-center group-hover:scale-110 transition-transform">
-                    <Icon className="w-6 h-6 text-white" />
-                  </div>
-                  <div className="text-3xl font-bold brand-accent mb-2">{stat.value}</div>
-                  <div className="text-gray-300 text-sm">{stat.label}</div>
-                </div>
-              );
-            })}
-          </div>
+
         </div>
 
         {/* Value Proposition */}
