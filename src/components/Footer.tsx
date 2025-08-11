@@ -9,9 +9,9 @@ const Footer = () => {
           {/* Company Info */}
           <div>
             <div className="flex items-center mb-4">
-              <img 
-                src="F4D_Logo2.png" 
-                alt="Form4Design Logo" 
+              <img
+                src="https://storage.googleapis.com/msgsndr/rlPIrRx253CZBZYwMMFj/media/689a4538af6a32db41f465eb.webp"
+                alt="Form4Design Logo"
                 className="h-8 w-auto mr-3"
               />
             </div>

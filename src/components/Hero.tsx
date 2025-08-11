@@ -62,7 +62,7 @@ const Hero = () => {
           <div className="relative">
             <div className="relative rounded-2xl overflow-hidden shadow-2xl brand-card">
               <img
-                src="https://storage.googleapis.com/msgsndr/rlPIrRx253CZBZYwMMFj/media/689a4538af6a32db41f465eb.webp"
+                src="https://storage.googleapis.com/msgsndr/rlPIrRx253CZBZYwMMFj/media/689951c7d580d6c4095814fa.webp"
                 alt="Trade Show Exhibition"
                 className="w-full h-96 lg:h-[500px] object-cover"
               />
