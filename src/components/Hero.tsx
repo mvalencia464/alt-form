@@ -68,9 +68,9 @@ const Hero = () => {
           {/* Image */}
           <div className="relative">
             <div className="relative rounded-2xl overflow-hidden shadow-2xl brand-card">
-              <img 
-                src="ChatGPT Image Aug 8, 2025, 09_12_38 AM.png" 
-                alt="Trade Show Exhibition" 
+              <img
+                src="https://storage.googleapis.com/msgsndr/rlPIrRx253CZBZYwMMFj/media/689951c7d580d6c4095814fa.webp"
+                alt="Trade Show Exhibition"
                 className="w-full h-96 lg:h-[500px] object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
