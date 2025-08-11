@@ -10,6 +10,15 @@
   </head>
   <body>
     <div id="root"></div>
+
+    <!-- Hidden form for Netlify to detect -->
+    <form name="quote-request" netlify netlify-honeypot="bot-field" hidden>
+      <input type="text" name="name" />
+      <input type="email" name="email" />
+      <input type="tel" name="phone" />
+      <textarea name="project-details"></textarea>
+    </form>
+
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
