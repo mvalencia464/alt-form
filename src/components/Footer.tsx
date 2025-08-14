@@ -88,10 +88,10 @@ const Footer = () => {
             © 2025 Form4Design. All rights reserved.
           </p>
           <div className="flex space-x-6 mt-4 md:mt-0">
-            <a href="#" className="text-gray-400 hover:text-blue-400 text-sm transition-colors">
+            <a href="/privacy-policy.html" className="text-gray-400 hover:text-blue-400 text-sm transition-colors">
               Privacy Policy
             </a>
-            <a href="#" className="text-gray-400 hover:text-blue-400 text-sm transition-colors">
+            <a href="/terms-of-service.html" className="text-gray-400 hover:text-blue-400 text-sm transition-colors">
               Terms of Service
             </a>
           </div>
