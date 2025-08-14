@@ -38,7 +38,7 @@ const Header = () => {
             <div className="flex items-center space-x-4 text-sm text-gray-400">
               <a href="tel:2134443676" className="flex items-center hover:text-blue-400 transition-colors">
                 <Phone className="w-4 h-4 mr-1" />
-                213.444.FORM (3676)
+                213.444.FORM
               </a>
               <a href="mailto:info@form4design.com" className="flex items-center hover:text-blue-400 transition-colors">
                 <Mail className="w-4 h-4 mr-1" />
@@ -91,7 +91,7 @@ const Header = () => {
               <div className="pt-4 border-t border-pink-500/20">
                 <a href="tel:2134443676" className="flex items-center text-gray-400 hover:text-blue-400 transition-colors mb-2">
                   <Phone className="w-4 h-4 mr-2" />
-                  213.444.FORM (3676)
+                  213.444.FORM
                 </a>
                 <a href="mailto:info@form4design.com" className="flex items-center text-gray-400 hover:text-blue-400 transition-colors">
                   <Mail className="w-4 h-4 mr-2" />
