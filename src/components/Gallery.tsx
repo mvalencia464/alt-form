@@ -38,7 +38,7 @@ const Gallery = () => {
     },
     {
       id: 6,
-      src: 'https://storage.googleapis.com/msgsndr/rlPIrRx253CZBZYwMMFj/media/68998178872940ee932986b9.webp',
+      src: 'https://storage.googleapis.com/msgsndr/rlPIrRx253CZBZYwMMFj/media/689e59f1f20a61b67fe587c3.webp',
       title: 'Dynamic Trade Show Display',
       description: 'Innovative booth design with striking visual elements'
     }
