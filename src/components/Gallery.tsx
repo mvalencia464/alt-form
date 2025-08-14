@@ -8,24 +8,18 @@ const Gallery = () => {
   const galleryImages = [
     {
       id: 1,
-      src: 'https://storage.googleapis.com/msgsndr/rlPIrRx253CZBZYwMMFj/media/689951c70d42f98bfa997bf6.webp',
-      title: 'Professional Trade Show Booth',
-      description: 'Custom exhibit design with premium materials and branding'
-    },
-    {
-      id: 2,
       src: 'https://storage.googleapis.com/msgsndr/rlPIrRx253CZBZYwMMFj/media/689951c7d580d6c4095814fa.webp',
       title: 'Corporate Event Setup',
       description: 'Large-scale exhibition with professional installation'
     },
     {
-      id: 3,
+      id: 2,
       src: 'https://storage.googleapis.com/msgsndr/rlPIrRx253CZBZYwMMFj/media/689951c78617573a663ecd96.webp',
       title: 'Interactive Brand Experience',
       description: 'Engaging booth design with multimedia elements'
     },
     {
-      id: 4,
+      id: 3,
       src: 'https://storage.googleapis.com/msgsndr/rlPIrRx253CZBZYwMMFj/media/689e59f1f20a61b67fe587c3.webp',
       title: 'Dynamic Trade Show Display',
       description: 'Innovative booth design with striking visual elements'
