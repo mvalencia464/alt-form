@@ -14,30 +14,18 @@ const Gallery = () => {
     },
     {
       id: 2,
-      src: 'https://storage.googleapis.com/msgsndr/rlPIrRx253CZBZYwMMFj/media/689951c7efa0f0f1fa773a20.webp',
-      title: 'Modern Exhibition Display',
-      description: 'Sleek design with integrated technology and graphics'
-    },
-    {
-      id: 3,
       src: 'https://storage.googleapis.com/msgsndr/rlPIrRx253CZBZYwMMFj/media/689951c7d580d6c4095814fa.webp',
       title: 'Corporate Event Setup',
       description: 'Large-scale exhibition with professional installation'
     },
     {
-      id: 4,
+      id: 3,
       src: 'https://storage.googleapis.com/msgsndr/rlPIrRx253CZBZYwMMFj/media/689951c78617573a663ecd96.webp',
       title: 'Interactive Brand Experience',
       description: 'Engaging booth design with multimedia elements'
     },
     {
-      id: 5,
-      src: 'https://storage.googleapis.com/msgsndr/rlPIrRx253CZBZYwMMFj/media/689951c7efa0f049a2773a21.webp',
-      title: 'Premium Exhibition Space',
-      description: 'High-end trade show booth with custom fabrication'
-    },
-    {
-      id: 6,
+      id: 4,
       src: 'https://storage.googleapis.com/msgsndr/rlPIrRx253CZBZYwMMFj/media/689e59f1f20a61b67fe587c3.webp',
       title: 'Dynamic Trade Show Display',
       description: 'Innovative booth design with striking visual elements'
