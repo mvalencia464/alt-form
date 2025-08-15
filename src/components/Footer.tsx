@@ -63,7 +63,7 @@ const Footer = () => {
               <div className="flex items-center">
                 <Phone className="w-5 h-5 mr-3 text-blue-400" />
                 <a href="tel:2134443676" className="hover:text-blue-400 transition-colors">
-                  213.444.FORM (3676)
+                  213.444.FORM
                 </a>
               </div>
               <div className="flex items-center">
