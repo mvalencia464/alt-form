@@ -148,11 +148,11 @@ const Gallery = () => {
   };
 
   return (
-    <section id="gallery" className="py-20 bg-black relative">
+    <section id="gallery" className="py-20 bg-gradient-to-br from-gray-900 via-slate-900 to-gray-800 relative">
       {/* Background Effects */}
-      <div className="absolute inset-0 opacity-5">
-        <div className="absolute top-1/4 left-1/3 w-96 h-96 bg-purple-500 rounded-full blur-3xl"></div>
-        <div className="absolute bottom-1/3 right-1/3 w-96 h-96 bg-cyan-500 rounded-full blur-3xl"></div>
+      <div className="absolute inset-0 opacity-8">
+        <div className="absolute top-1/4 left-1/3 w-96 h-96 bg-purple-500/20 rounded-full blur-3xl"></div>
+        <div className="absolute bottom-1/3 right-1/3 w-96 h-96 bg-cyan-500/20 rounded-full blur-3xl"></div>
       </div>
       
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -171,7 +171,7 @@ const Gallery = () => {
           {galleryImages.map((image, index) => (
             <div
               key={image.id}
-              className="group relative brand-card rounded-xl overflow-hidden cursor-pointer transition-all duration-300 hover:transform hover:scale-105 hover:shadow-xl"
+              className="group relative bg-gradient-to-br from-slate-800/40 to-gray-900/40 backdrop-blur-sm border border-slate-700/30 rounded-xl overflow-hidden cursor-pointer transition-all duration-300 hover:transform hover:scale-105 hover:shadow-xl hover:border-blue-500/30"
               onClick={() => openLightbox(index)}
             >
               <div className="aspect-w-16 aspect-h-12 relative">
@@ -199,7 +199,7 @@ const Gallery = () => {
 
         {/* CTA Section */}
         <div className="mt-16 text-center">
-          <div className="brand-card rounded-2xl p-8">
+          <div className="bg-gradient-to-br from-slate-800/60 to-gray-900/60 backdrop-blur-sm border border-slate-700/50 rounded-2xl p-8">
             <h3 className="text-2xl font-bold text-white mb-4">
               Ready to Create Your Next Success Story?
             </h3>

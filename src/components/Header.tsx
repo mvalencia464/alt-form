@@ -5,7 +5,7 @@ const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <header className="bg-black/95 backdrop-blur-sm border-b border-pink-500/20 sticky top-0 z-50">
+    <header className="bg-slate-900/95 backdrop-blur-md border-b border-slate-700/30 sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-4">
           {/* Logo */}
@@ -58,7 +58,7 @@ const Header = () => {
 
         {/* Mobile Navigation */}
         {isMenuOpen && (
-          <div className="md:hidden py-4 border-t border-pink-500/20">
+          <div className="md:hidden py-4 border-t border-slate-700/30">
             <div className="flex flex-col space-y-4">
               <a
                 href="#services"
@@ -89,6 +89,7 @@ const Header = () => {
                 Contact
               </a>
               <div className="pt-4 border-t border-pink-500/20">
+              <div className="pt-4 border-t border-slate-700/30">
                 <a href="tel:2134443676" className="flex items-center text-gray-400 hover:text-blue-400 transition-colors mb-2">
                   <Phone className="w-4 h-4 mr-2" />
                   213.444.FORM

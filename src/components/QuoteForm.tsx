@@ -19,7 +19,7 @@ const QuoteForm = () => {
 
   if (isSubmitted) {
     return (
-      <div className="brand-card rounded-2xl p-8 text-center">
+      <div className="bg-gradient-to-br from-slate-800/60 to-gray-900/60 backdrop-blur-sm border border-slate-700/50 rounded-2xl p-8 text-center">
         <div className="w-16 h-16 mx-auto mb-4 rounded-full bg-green-500 flex items-center justify-center">
           <CheckCircle className="w-8 h-8 text-white" />
         </div>
@@ -32,7 +32,7 @@ const QuoteForm = () => {
   }
 
   return (
-    <div className="brand-card rounded-2xl p-8">
+    <div className="bg-gradient-to-br from-slate-800/60 to-gray-900/60 backdrop-blur-sm border border-slate-700/50 rounded-2xl p-8">
       <h3 className="text-2xl font-bold text-white mb-6 text-center">
         Start your free design today
       </h3>
@@ -63,7 +63,7 @@ const QuoteForm = () => {
               id="name"
               name="name"
               required
-              className="w-full px-4 py-3 bg-black/50 border border-blue-500/30 rounded-lg text-white placeholder-gray-400 focus:border-blue-400 focus:ring-1 focus:ring-blue-400 transition-colors backdrop-blur-sm"
+              className="w-full px-4 py-3 bg-slate-800/50 border border-slate-600/50 rounded-lg text-white placeholder-gray-400 focus:border-blue-400 focus:ring-1 focus:ring-blue-400 transition-colors backdrop-blur-sm"
               placeholder="Your full name"
             />
           </div>
@@ -77,7 +77,7 @@ const QuoteForm = () => {
               id="email"
               name="email"
               required
-              className="w-full px-4 py-3 bg-black/50 border border-blue-500/30 rounded-lg text-white placeholder-gray-400 focus:border-blue-400 focus:ring-1 focus:ring-blue-400 transition-colors backdrop-blur-sm"
+              className="w-full px-4 py-3 bg-slate-800/50 border border-slate-600/50 rounded-lg text-white placeholder-gray-400 focus:border-blue-400 focus:ring-1 focus:ring-blue-400 transition-colors backdrop-blur-sm"
               placeholder="your@email.com"
             />
           </div>
@@ -91,7 +91,7 @@ const QuoteForm = () => {
             type="tel"
             id="phone"
             name="phone"
-            className="w-full px-4 py-3 bg-black/50 border border-blue-500/30 rounded-lg text-white placeholder-gray-400 focus:border-blue-400 focus:ring-1 focus:ring-blue-400 transition-colors backdrop-blur-sm"
+            className="w-full px-4 py-3 bg-slate-800/50 border border-slate-600/50 rounded-lg text-white placeholder-gray-400 focus:border-blue-400 focus:ring-1 focus:ring-blue-400 transition-colors backdrop-blur-sm"
             placeholder="(555) 123-4567"
           />
         </div>
@@ -104,7 +104,7 @@ const QuoteForm = () => {
             id="project-details"
             name="project-details"
             rows={4}
-            className="w-full px-4 py-3 bg-black/50 border border-blue-500/30 rounded-lg text-white placeholder-gray-400 focus:border-blue-400 focus:ring-1 focus:ring-blue-400 transition-colors resize-none backdrop-blur-sm"
+            className="w-full px-4 py-3 bg-slate-800/50 border border-slate-600/50 rounded-lg text-white placeholder-gray-400 focus:border-blue-400 focus:ring-1 focus:ring-blue-400 transition-colors resize-none backdrop-blur-sm"
             placeholder="Tell us about your trade show needs, timeline, and budget..."
           />
         </div>
@@ -115,7 +115,7 @@ const QuoteForm = () => {
             id="consent"
             name="consent"
             required
-            className="mt-1 w-4 h-4 text-blue-600 bg-black/50 border border-blue-500/30 rounded focus:ring-blue-400 focus:ring-2"
+            className="mt-1 w-4 h-4 text-blue-600 bg-slate-800/50 border border-slate-600/50 rounded focus:ring-blue-400 focus:ring-2"
           />
           <label htmlFor="consent" className="text-sm text-gray-300 leading-relaxed">
             By checking this box and submitting this form, I consent to receive marketing communications from Form4Design via phone, email, and text message. I understand that I can opt out at any time by replying STOP to text messages or unsubscribing from emails. Message and data rates may apply. I acknowledge that I have read and agree to the{' '}

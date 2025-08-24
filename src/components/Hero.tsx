@@ -2,25 +2,64 @@ import React from 'react';
 import { ArrowRight } from 'lucide-react';
 
 const Hero = () => {
+  // Trade show images for background grid
+  const backgroundImages = [
+    'https://storage.googleapis.com/msgsndr/rlPIrRx253CZBZYwMMFj/media/68a8bbe21614bd04ceb29f1e.webp',
+    'https://storage.googleapis.com/msgsndr/rlPIrRx253CZBZYwMMFj/media/68a8bbe23a9e2911afb28d01.webp',
+    'https://storage.googleapis.com/msgsndr/rlPIrRx253CZBZYwMMFj/media/68a8bbe23a9e29847fb28d11.webp',
+    'https://storage.googleapis.com/msgsndr/rlPIrRx253CZBZYwMMFj/media/68a8bbe254a62612acc87743.webp',
+    'https://storage.googleapis.com/msgsndr/rlPIrRx253CZBZYwMMFj/media/68a8bbe254a6266c49c87744.webp',
+    'https://storage.googleapis.com/msgsndr/rlPIrRx253CZBZYwMMFj/media/68a8bbe25f2e6e38069baa10.webp',
+    'https://storage.googleapis.com/msgsndr/rlPIrRx253CZBZYwMMFj/media/68a8bbe25f2e6e9bb39baa1b.webp',
+    'https://storage.googleapis.com/msgsndr/rlPIrRx253CZBZYwMMFj/media/68a8bbe25f2e6eca709baa11.webp',
+    'https://storage.googleapis.com/msgsndr/rlPIrRx253CZBZYwMMFj/media/68a8bbe27dc6b0918f8588db.webp',
+    'https://storage.googleapis.com/msgsndr/rlPIrRx253CZBZYwMMFj/media/68a8bbe29c19c00757f1b00d.webp',
+    'https://storage.googleapis.com/msgsndr/rlPIrRx253CZBZYwMMFj/media/68a8bbe29c19c07979f1b00c.webp',
+    'https://storage.googleapis.com/msgsndr/rlPIrRx253CZBZYwMMFj/media/68a8bbe2b199f3495af4b7aa.webp'
+  ];
+
   return (
-    <section className="relative bg-black py-20 lg:py-32 overflow-hidden">
-      {/* Background Pattern */}
-      <div className="absolute inset-0 opacity-10">
-        <div className="absolute inset-0 bg-gradient-to-r from-pink-500/20 via-orange-500/20 to-cyan-500/20"></div>
+    <section className="relative bg-gradient-to-br from-gray-900 via-slate-900 to-gray-800 py-20 lg:py-32 overflow-hidden">
+      {/* Background Image Grid */}
+      <div className="absolute inset-0 opacity-[0.03]">
+        <div className="grid grid-cols-6 gap-2 h-full w-full">
+          {backgroundImages.map((image, index) => (
+            <div
+              key={index}
+              className="relative overflow-hidden"
+              style={{
+                gridRow: `span ${Math.floor(Math.random() * 2) + 1}`,
+                animationDelay: `${index * 0.5}s`
+              }}
+            >
+              <img
+                src={image}
+                alt=""
+                className="w-full h-full object-cover opacity-60 hover:opacity-80 transition-opacity duration-1000"
+                style={{
+                  filter: 'grayscale(100%) contrast(1.2)',
+                }}
+              />
+            </div>
+          ))}
+        </div>
       </div>
       
-      {/* Neon Grid Background */}
-      <div className="absolute inset-0 opacity-20">
+      {/* Subtle overlay gradient */}
+      <div className="absolute inset-0 bg-gradient-to-br from-slate-900/80 via-gray-900/70 to-slate-800/80"></div>
+      
+      {/* Subtle grid pattern */}
+      <div className="absolute inset-0 opacity-5">
         <div className="absolute inset-0" style={{
           backgroundImage: `
-            linear-gradient(rgba(255, 0, 128, 0.1) 1px, transparent 1px),
-            linear-gradient(90deg, rgba(255, 0, 128, 0.1) 1px, transparent 1px)
+            linear-gradient(rgba(59, 130, 246, 0.1) 1px, transparent 1px),
+            linear-gradient(90deg, rgba(59, 130, 246, 0.1) 1px, transparent 1px)
           `,
-          backgroundSize: '50px 50px'
+          backgroundSize: '60px 60px'
         }}></div>
       </div>
 
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Content */}
           <div className="text-center lg:text-left">
@@ -51,7 +90,7 @@ const Hero = () => {
               
               <button 
                 onClick={() => document.getElementById('services')?.scrollIntoView({ behavior: 'smooth' })}
-                className="border-2 border-blue-500 text-blue-400 px-8 py-4 rounded-lg font-semibold hover:bg-blue-500 hover:text-white transition-all duration-300"
+                className="border-2 border-blue-400/50 text-blue-300 px-8 py-4 rounded-lg font-semibold hover:bg-blue-500/20 hover:border-blue-400 hover:text-white transition-all duration-300 backdrop-blur-sm"
               >
                 View Services
               </button>
@@ -60,22 +99,22 @@ const Hero = () => {
           
           {/* Image */}
           <div className="relative">
-            <div className="relative rounded-2xl overflow-hidden shadow-2xl brand-card">
+            <div className="relative rounded-2xl overflow-hidden shadow-2xl bg-gradient-to-br from-slate-800/50 to-gray-900/50 backdrop-blur-sm border border-slate-700/50">
               <img
                 src="https://storage.googleapis.com/msgsndr/rlPIrRx253CZBZYwMMFj/media/689951c7d580d6c4095814fa.webp"
                 alt="Trade Show Exhibition"
                 className="w-full h-96 lg:h-[500px] object-cover"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
+              <div className="absolute inset-0 bg-gradient-to-t from-slate-900/60 to-transparent"></div>
             </div>
             
             {/* Floating Stats */}
-            <div className="absolute -bottom-6 -left-6 brand-card rounded-xl p-4 shadow-xl floating-animation">
+            <div className="absolute -bottom-6 -left-6 bg-gradient-to-br from-slate-800/90 to-gray-900/90 backdrop-blur-md border border-slate-600/50 rounded-xl p-4 shadow-xl floating-animation">
               <div className="text-2xl font-bold brand-accent">30+</div>
               <div className="text-sm text-gray-300">Years Experience</div>
             </div>
 
-            <div className="absolute -top-6 -right-6 brand-card rounded-xl p-4 shadow-xl floating-animation" style={{ animationDelay: '2s' }}>
+            <div className="absolute -top-6 -right-6 bg-gradient-to-br from-slate-800/90 to-gray-900/90 backdrop-blur-md border border-slate-600/50 rounded-xl p-4 shadow-xl floating-animation" style={{ animationDelay: '2s' }}>
               <div className="text-2xl font-bold brand-accent">200+</div>
               <div className="text-sm text-gray-300">Projects Completed</div>
             </div>

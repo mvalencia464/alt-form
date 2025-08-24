@@ -39,11 +39,11 @@ const Contact = () => {
   ];
 
   return (
-    <section id="contact" className="py-20 bg-black relative">
+    <section id="contact" className="py-20 bg-gradient-to-br from-gray-900 via-slate-900 to-gray-800 relative">
       {/* Background Effects */}
-      <div className="absolute inset-0 opacity-5">
-        <div className="absolute top-1/4 right-1/4 w-96 h-96 bg-purple-500 rounded-full blur-3xl"></div>
-        <div className="absolute bottom-1/4 left-1/4 w-96 h-96 bg-cyan-500 rounded-full blur-3xl"></div>
+      <div className="absolute inset-0 opacity-8">
+        <div className="absolute top-1/4 right-1/4 w-96 h-96 bg-purple-500/20 rounded-full blur-3xl"></div>
+        <div className="absolute bottom-1/4 left-1/4 w-96 h-96 bg-cyan-500/20 rounded-full blur-3xl"></div>
       </div>
       
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -66,7 +66,7 @@ const Contact = () => {
               {contactInfo.map((info, index) => {
                 const Icon = info.icon;
                 const content = (
-                  <div className="brand-card rounded-xl p-6 transition-all duration-300 group hover:transform hover:scale-105 hover:shadow-xl">
+                  <div className="bg-gradient-to-br from-slate-800/60 to-gray-900/60 backdrop-blur-sm border border-slate-700/50 rounded-xl p-6 transition-all duration-300 group hover:transform hover:scale-105 hover:shadow-xl hover:border-blue-500/30">
                     <div className="w-12 h-12 rounded-lg bg-blue-600 flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
                       <Icon className="w-6 h-6 text-white" />
                     </div>
@@ -88,7 +88,7 @@ const Contact = () => {
             </div>
 
             {/* Additional Info */}
-            <div className="brand-card rounded-xl p-6">
+            <div className="bg-gradient-to-br from-slate-800/60 to-gray-900/60 backdrop-blur-sm border border-slate-700/50 rounded-xl p-6">
               <h4 className="text-lg font-semibold text-white mb-4">Why Choose Form4Design?</h4>
               <ul className="space-y-3 text-gray-300">
                 <li className="flex items-center">

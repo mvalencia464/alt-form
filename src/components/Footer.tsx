@@ -3,7 +3,7 @@ import { Phone, Mail, Globe } from 'lucide-react';
 
 const Footer = () => {
   return (
-    <footer className="bg-black border-t border-pink-500/20 py-12">
+    <footer className="bg-gradient-to-br from-slate-900 via-gray-900 to-slate-800 border-t border-slate-700/30 py-12">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid md:grid-cols-3 gap-8">
           {/* Company Info */}
@@ -22,13 +22,13 @@ const Footer = () => {
             <div className="flex space-x-4">
               <a
                 href="tel:2134443676"
-                className="w-10 h-10 brand-card rounded-lg flex items-center justify-center text-gray-300 hover:text-blue-400 transition-colors"
+                className="w-10 h-10 bg-slate-800/60 backdrop-blur-sm border border-slate-700/50 rounded-lg flex items-center justify-center text-gray-300 hover:text-blue-400 transition-colors"
               >
                 <Phone className="w-5 h-5" />
               </a>
               <a
                 href="mailto:info@form4design.com"
-                className="w-10 h-10 brand-card rounded-lg flex items-center justify-center text-gray-300 hover:text-blue-400 transition-colors"
+                className="w-10 h-10 bg-slate-800/60 backdrop-blur-sm border border-slate-700/50 rounded-lg flex items-center justify-center text-gray-300 hover:text-blue-400 transition-colors"
               >
                 <Mail className="w-5 h-5" />
               </a>
@@ -36,7 +36,7 @@ const Footer = () => {
                 href="https://form4design.com"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-10 h-10 brand-card rounded-lg flex items-center justify-center text-gray-300 hover:text-blue-400 transition-colors"
+                className="w-10 h-10 bg-slate-800/60 backdrop-blur-sm border border-slate-700/50 rounded-lg flex items-center justify-center text-gray-300 hover:text-blue-400 transition-colors"
               >
                 <Globe className="w-5 h-5" />
               </a>
@@ -83,7 +83,7 @@ const Footer = () => {
         </div>
 
         {/* Bottom Bar */}
-        <div className="border-t border-pink-500/20 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
+        <div className="border-t border-slate-700/30 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-400 text-sm">
             © 2025 Form4Design. All rights reserved.
           </p>

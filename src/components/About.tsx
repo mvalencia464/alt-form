@@ -21,11 +21,11 @@ const About = () => {
   ];
 
   return (
-    <section id="about" className="py-20 bg-black relative">
+    <section id="about" className="py-20 bg-gradient-to-br from-slate-800 via-gray-900 to-slate-900 relative">
       {/* Background Effects */}
-      <div className="absolute inset-0 opacity-5">
-        <div className="absolute top-1/3 right-1/3 w-80 h-80 bg-orange-500 rounded-full blur-3xl"></div>
-        <div className="absolute bottom-1/3 left-1/3 w-80 h-80 bg-green-500 rounded-full blur-3xl"></div>
+      <div className="absolute inset-0 opacity-8">
+        <div className="absolute top-1/3 right-1/3 w-80 h-80 bg-orange-500/20 rounded-full blur-3xl"></div>
+        <div className="absolute bottom-1/3 left-1/3 w-80 h-80 bg-green-500/20 rounded-full blur-3xl"></div>
       </div>
       
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -69,7 +69,7 @@ const About = () => {
 
         {/* Value Proposition */}
         <div className="mt-20 text-center">
-          <div className="brand-card rounded-2xl p-8 lg:p-12">
+          <div className="bg-gradient-to-br from-slate-800/60 to-gray-900/60 backdrop-blur-sm border border-slate-700/50 rounded-2xl p-8 lg:p-12">
             <h3 className="text-3xl font-bold text-white mb-6">
               The Form4Design Advantage
             </h3>
