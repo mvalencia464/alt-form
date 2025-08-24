@@ -20,6 +20,17 @@ const Hero = () => {
 
   return (
     <section className="relative bg-gradient-to-br from-gray-900 via-slate-900 to-gray-800 py-20 lg:py-32 overflow-hidden">
+      {/* Hero Background Image */}
+      <div className="absolute inset-0">
+        <img
+          src="/hero-bg.webp"
+          alt=""
+          className="w-full h-full object-cover opacity-20"
+        />
+        {/* Gradient overlay - fades from left (existing colors) to right (low opacity image) */}
+        <div className="absolute inset-0 bg-gradient-to-r from-gray-900 via-slate-900/80 to-transparent"></div>
+      </div>
+      
       {/* Background Image Grid */}
       <div className="absolute inset-0 opacity-[0.03]">
         <div className="grid grid-cols-6 gap-2 h-full w-full">
@@ -47,7 +58,7 @@ const Hero = () => {
       </div>
       
       {/* Subtle overlay gradient */}
-      <div className="absolute inset-0 bg-gradient-to-br from-slate-900/85 via-gray-900/75 to-slate-800/85"></div>
+      <div className="absolute inset-0 bg-gradient-to-br from-slate-900/60 via-gray-900/40 to-slate-800/60"></div>
       
       {/* Subtle grid pattern */}
       <div className="absolute inset-0 opacity-8">
