@@ -67,6 +67,26 @@ const About = () => {
 
         </div>
 
+        {/* Images Column */}
+        <div className="space-y-6">
+          <div className="relative rounded-2xl overflow-hidden shadow-xl">
+            <img
+              src="https://storage.googleapis.com/msgsndr/rlPIrRx253CZBZYwMMFj/media/689951c7d580d6c4095814fa.webp"
+              alt="Trade Show Exhibition Setup"
+              className="w-full h-64 object-cover"
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-slate-900/40 to-transparent"></div>
+          </div>
+          
+          <div className="relative rounded-2xl overflow-hidden shadow-xl">
+            <img
+              src="https://storage.googleapis.com/msgsndr/rlPIrRx253CZBZYwMMFj/media/68a8bbe21614bd04ceb29f1e.webp"
+              alt="Professional Trade Show Display"
+              className="w-full h-64 object-cover"
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-slate-900/40 to-transparent"></div>
+          </div>
+        </div>
         {/* Value Proposition */}
         <div className="mt-20 text-center">
           <div className="bg-gradient-to-br from-slate-800/60 to-gray-900/60 backdrop-blur-sm border border-slate-700/50 rounded-2xl p-8 lg:p-12">
