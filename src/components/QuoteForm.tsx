@@ -64,6 +64,7 @@ const QuoteForm = () => {
               name="name"
               required
               className="w-full px-4 py-3 bg-slate-800/50 border border-slate-600/50 rounded-lg text-white placeholder-gray-400 focus:border-blue-400 focus:ring-1 focus:ring-blue-400 transition-colors backdrop-blur-sm"
+              className="w-full px-4 py-3 bg-slate-800/50 border border-slate-600/50 rounded-lg text-white placeholder-gray-400 focus:border-yellow-400 focus:ring-1 focus:ring-yellow-400 transition-colors backdrop-blur-sm"
               placeholder="Your full name"
             />
           </div>
@@ -78,6 +79,7 @@ const QuoteForm = () => {
               name="email"
               required
               className="w-full px-4 py-3 bg-slate-800/50 border border-slate-600/50 rounded-lg text-white placeholder-gray-400 focus:border-blue-400 focus:ring-1 focus:ring-blue-400 transition-colors backdrop-blur-sm"
+              className="w-full px-4 py-3 bg-slate-800/50 border border-slate-600/50 rounded-lg text-white placeholder-gray-400 focus:border-yellow-400 focus:ring-1 focus:ring-yellow-400 transition-colors backdrop-blur-sm"
               placeholder="your@email.com"
             />
           </div>
@@ -92,6 +94,7 @@ const QuoteForm = () => {
             id="phone"
             name="phone"
             className="w-full px-4 py-3 bg-slate-800/50 border border-slate-600/50 rounded-lg text-white placeholder-gray-400 focus:border-blue-400 focus:ring-1 focus:ring-blue-400 transition-colors backdrop-blur-sm"
+            className="w-full px-4 py-3 bg-slate-800/50 border border-slate-600/50 rounded-lg text-white placeholder-gray-400 focus:border-yellow-400 focus:ring-1 focus:ring-yellow-400 transition-colors backdrop-blur-sm"
             placeholder="(555) 123-4567"
           />
         </div>
@@ -105,6 +108,7 @@ const QuoteForm = () => {
             name="project-details"
             rows={4}
             className="w-full px-4 py-3 bg-slate-800/50 border border-slate-600/50 rounded-lg text-white placeholder-gray-400 focus:border-blue-400 focus:ring-1 focus:ring-blue-400 transition-colors resize-none backdrop-blur-sm"
+            className="w-full px-4 py-3 bg-slate-800/50 border border-slate-600/50 rounded-lg text-white placeholder-gray-400 focus:border-yellow-400 focus:ring-1 focus:ring-yellow-400 transition-colors resize-none backdrop-blur-sm"
             placeholder="Tell us about your trade show needs, timeline, and budget..."
           />
         </div>
@@ -115,15 +119,15 @@ const QuoteForm = () => {
             id="consent"
             name="consent"
             required
-            className="mt-1 w-4 h-4 text-blue-600 bg-slate-800/50 border border-slate-600/50 rounded focus:ring-blue-400 focus:ring-2"
+            className="mt-1 w-4 h-4 text-yellow-600 bg-slate-800/50 border border-slate-600/50 rounded focus:ring-yellow-400 focus:ring-2"
           />
           <label htmlFor="consent" className="text-sm text-gray-300 leading-relaxed">
             By checking this box and submitting this form, I consent to receive marketing communications from Form4Design via phone, email, and text message. I understand that I can opt out at any time by replying STOP to text messages or unsubscribing from emails. Message and data rates may apply. I acknowledge that I have read and agree to the{' '}
-            <a href="/privacy-policy" className="text-blue-400 hover:text-blue-300 underline">
+            <a href="/privacy-policy" className="text-yellow-400 hover:text-yellow-300 underline">
               Privacy Policy
             </a>{' '}
             and{' '}
-            <a href="/terms-of-service" className="text-blue-400 hover:text-blue-300 underline">
+            <a href="/terms-of-service" className="text-orange-400 hover:text-orange-300 underline">
               Terms of Service
             </a>
             . *
@@ -132,7 +136,7 @@ const QuoteForm = () => {
 
         <button
           type="submit"
-          className="w-full brand-button text-white px-8 py-4 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105 flex items-center justify-center group"
+          className="w-full brand-button text-gray-900 px-8 py-4 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105 flex items-center justify-center group shadow-lg shadow-yellow-500/25"
         >
           Send Quote Request
           <Send className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />

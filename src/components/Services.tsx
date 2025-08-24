@@ -7,40 +7,40 @@ const services = [
     title: 'Exhibit Design & Build',
     description: 'Custom exhibit design and construction that captures your brand and engages your audience.',
     features: ['Custom Design', '3D Visualization', 'Quality Construction', 'Brand Integration'],
-    color: 'from-pink-500 to-purple-500',
-    glowColor: 'shadow-pink-500/25'
+    cardClass: 'service-card-1',
+    iconColor: 'bg-gradient-to-r from-yellow-500 to-orange-500'
   },
   {
     icon: Zap,
     title: 'Graphics Solutions',
     description: 'Eye-catching graphics and signage that make your booth stand out from the competition.',
     features: ['Large Format Printing', 'Digital Graphics', 'Fabric Displays', 'LED Solutions'],
-    color: 'from-orange-500 to-yellow-500',
-    glowColor: 'shadow-orange-500/25'
+    cardClass: 'service-card-2',
+    iconColor: 'bg-gradient-to-r from-orange-500 to-red-500'
   },
   {
     icon: Hammer,
     title: 'I&D Services',
     description: 'Professional installation and dismantle services ensuring your exhibit is perfect.',
     features: ['Expert Installation', 'Timely Setup', 'Safe Dismantle', 'Quality Assurance'],
-    color: 'from-green-500 to-emerald-500',
-    glowColor: 'shadow-green-500/25'
+    cardClass: 'service-card-3',
+    iconColor: 'bg-gradient-to-r from-teal-500 to-cyan-500'
   },
   {
     icon: Truck,
     title: 'Freight Logistics',
     description: 'Comprehensive logistics management from warehouse to show floor and back.',
     features: ['Shipping Coordination', 'Customs Handling', 'Tracking Services', 'Damage Protection'],
-    color: 'from-cyan-500 to-blue-500',
-    glowColor: 'shadow-cyan-500/25'
+    cardClass: 'service-card-4',
+    iconColor: 'bg-gradient-to-r from-blue-500 to-indigo-500'
   },
   {
     icon: Package,
     title: 'Storage Solutions',
     description: 'Secure storage facilities to keep your exhibit materials safe between shows.',
     features: ['Climate Controlled', 'Secure Facilities', 'Inventory Management', 'Easy Access'],
-    color: 'from-purple-500 to-indigo-500',
-    glowColor: 'shadow-purple-500/25'
+    cardClass: 'service-card-5',
+    iconColor: 'bg-gradient-to-r from-purple-500 to-pink-500'
   }
 ];
 
@@ -71,9 +71,9 @@ const Services = () => {
             return (
               <div
                 key={index}
-                className="bg-gradient-to-br from-slate-800/60 to-gray-900/60 backdrop-blur-sm border border-slate-700/50 rounded-xl p-6 transition-all duration-300 group hover:transform hover:scale-105 hover:shadow-xl hover:border-blue-500/30"
+                className={`${service.cardClass} backdrop-blur-sm border rounded-xl p-6 transition-all duration-300 group hover:transform hover:scale-105 hover:shadow-xl`}
               >
-                <div className="w-12 h-12 rounded-lg bg-gradient-to-r from-blue-600 to-purple-600 flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+                <div className={`w-12 h-12 rounded-lg ${service.iconColor} flex items-center justify-center mb-4 group-hover:scale-110 transition-transform shadow-lg`}>
                   <Icon className="w-6 h-6 text-white" />
                 </div>
                 
@@ -88,7 +88,7 @@ const Services = () => {
                 <ul className="space-y-2">
                   {service.features.map((feature, featureIndex) => (
                     <li key={featureIndex} className="flex items-center text-sm text-gray-400">
-                      <div className="w-2 h-2 rounded-full bg-blue-500 mr-3"></div>
+                      <div className="w-2 h-2 rounded-full bg-yellow-400 mr-3"></div>
                       {feature}
                     </li>
                   ))}
@@ -109,7 +109,7 @@ const Services = () => {
             </p>
             <button
               onClick={() => document.getElementById('quote-form')?.scrollIntoView({ behavior: 'smooth' })}
-              className="brand-button text-white px-8 py-3 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105"
+              className="brand-button text-gray-900 px-8 py-3 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg shadow-yellow-500/25"
             >
               Start your free design today
             </button>

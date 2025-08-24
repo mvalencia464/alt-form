@@ -208,7 +208,7 @@ const Gallery = () => {
             </p>
             <button 
               onClick={() => document.getElementById('quote-form')?.scrollIntoView({ behavior: 'smooth' })}
-              className="brand-button text-white px-8 py-3 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105"
+              className="brand-button text-gray-900 px-8 py-3 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg shadow-yellow-500/25"
             >
               Start Your Project Today
             </button>

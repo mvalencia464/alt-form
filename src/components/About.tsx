@@ -45,7 +45,7 @@ const About = () => {
             <div className="space-y-6">
               {usps.map((usp, index) => (
                 <div key={index} className="flex items-start space-x-4">
-                  <div className="w-2 h-2 rounded-full bg-blue-500 mt-3 flex-shrink-0"></div>
+                  <div className="w-2 h-2 rounded-full bg-yellow-400 mt-3 flex-shrink-0"></div>
                   <div>
                     <h3 className="text-lg font-semibold text-white mb-2">{usp.title}</h3>
                     <p className="text-gray-300">{usp.description}</p>
@@ -57,7 +57,7 @@ const About = () => {
             <div className="mt-8">
               <button 
                 onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
-                className="brand-button text-white px-8 py-3 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105"
+                className="brand-button text-gray-900 px-8 py-3 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg shadow-yellow-500/25"
               >
                 Let's Work Together
               </button>

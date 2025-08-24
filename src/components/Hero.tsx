@@ -91,7 +91,7 @@ const Hero = () => {
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
               <button
                 onClick={() => document.getElementById('quote-form')?.scrollIntoView({ behavior: 'smooth' })}
-                className="brand-button text-white px-8 py-4 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105 flex items-center justify-center group"
+                className="brand-button text-gray-900 px-8 py-4 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105 flex items-center justify-center group shadow-lg shadow-yellow-500/25"
               >
                 Start your free design today
                 <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
@@ -99,7 +99,7 @@ const Hero = () => {
               
               <button 
                 onClick={() => document.getElementById('services')?.scrollIntoView({ behavior: 'smooth' })}
-                className="border-2 border-blue-400/50 text-blue-300 px-8 py-4 rounded-lg font-semibold hover:bg-blue-500/20 hover:border-blue-400 hover:text-white transition-all duration-300 backdrop-blur-sm"
+                className="border-2 border-yellow-400/50 text-yellow-300 px-8 py-4 rounded-lg font-semibold hover:bg-yellow-500/20 hover:border-yellow-400 hover:text-white transition-all duration-300 backdrop-blur-sm"
               >
                 View Services
               </button>
@@ -119,12 +119,12 @@ const Hero = () => {
             
             {/* Floating Stats */}
             <div className="absolute -bottom-6 -left-6 bg-gradient-to-br from-slate-800/90 to-gray-900/90 backdrop-blur-md border border-slate-600/50 rounded-xl p-4 shadow-xl floating-animation">
-              <div className="text-2xl font-bold brand-accent">30+</div>
+              <div className="text-2xl font-bold text-yellow-400">30+</div>
               <div className="text-sm text-gray-300">Years Experience</div>
             </div>
 
             <div className="absolute -top-6 -right-6 bg-gradient-to-br from-slate-800/90 to-gray-900/90 backdrop-blur-md border border-slate-600/50 rounded-xl p-4 shadow-xl floating-animation" style={{ animationDelay: '2s' }}>
-              <div className="text-2xl font-bold brand-accent">200+</div>
+              <div className="text-2xl font-bold text-orange-400">200+</div>
               <div className="text-sm text-gray-300">Projects Completed</div>
             </div>
           </div>

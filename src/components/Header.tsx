@@ -20,27 +20,28 @@ const Header = () => {
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
             <a href="#services" className="text-gray-300 hover:text-blue-400 transition-colors relative group">
+            <a href="#services" className="text-gray-300 hover:text-yellow-400 transition-colors relative group">
               Services
-              <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-blue-500 group-hover:w-full transition-all duration-300"></span>
+              <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-yellow-500 group-hover:w-full transition-all duration-300"></span>
             </a>
-            <a href="#gallery" className="text-gray-300 hover:text-blue-400 transition-colors relative group">
+            <a href="#gallery" className="text-gray-300 hover:text-orange-400 transition-colors relative group">
               Gallery
-              <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-blue-500 group-hover:w-full transition-all duration-300"></span>
+              <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-orange-500 group-hover:w-full transition-all duration-300"></span>
             </a>
-            <a href="#about" className="text-gray-300 hover:text-blue-400 transition-colors relative group">
+            <a href="#about" className="text-gray-300 hover:text-teal-400 transition-colors relative group">
               About
-              <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-blue-500 group-hover:w-full transition-all duration-300"></span>
+              <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-teal-500 group-hover:w-full transition-all duration-300"></span>
             </a>
             <a href="#contact" className="text-gray-300 hover:text-blue-400 transition-colors relative group">
               Contact
               <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-blue-500 group-hover:w-full transition-all duration-300"></span>
             </a>
             <div className="flex items-center space-x-4 text-sm text-gray-400">
-              <a href="tel:2134443676" className="flex items-center hover:text-blue-400 transition-colors">
+              <a href="tel:2134443676" className="flex items-center hover:text-yellow-400 transition-colors">
                 <Phone className="w-4 h-4 mr-1" />
                 213.444.FORM
               </a>
-              <a href="mailto:info@form4design.com" className="flex items-center hover:text-blue-400 transition-colors">
+              <a href="mailto:info@form4design.com" className="flex items-center hover:text-orange-400 transition-colors">
                 <Mail className="w-4 h-4 mr-1" />
                 info@form4design.com
               </a>
@@ -62,21 +63,21 @@ const Header = () => {
             <div className="flex flex-col space-y-4">
               <a
                 href="#services"
-                className="text-gray-300 hover:text-blue-400 transition-colors"
+                className="text-gray-300 hover:text-yellow-400 transition-colors"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Services
               </a>
               <a
                 href="#gallery"
-                className="text-gray-300 hover:text-blue-400 transition-colors"
+                className="text-gray-300 hover:text-orange-400 transition-colors"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Gallery
               </a>
               <a
                 href="#about"
-                className="text-gray-300 hover:text-blue-400 transition-colors"
+                className="text-gray-300 hover:text-teal-400 transition-colors"
                 onClick={() => setIsMenuOpen(false)}
               >
                 About
@@ -89,11 +90,11 @@ const Header = () => {
                 Contact
               </a>
               <div className="pt-4 border-t border-slate-700/30">
-                <a href="tel:2134443676" className="flex items-center text-gray-400 hover:text-blue-400 transition-colors mb-2">
+                <a href="tel:2134443676" className="flex items-center text-gray-400 hover:text-yellow-400 transition-colors mb-2">
                   <Phone className="w-4 h-4 mr-2" />
                   213.444.FORM
                 </a>
-                <a href="mailto:info@form4design.com" className="flex items-center text-gray-400 hover:text-blue-400 transition-colors">
+                <a href="mailto:info@form4design.com" className="flex items-center text-gray-400 hover:text-orange-400 transition-colors">
                   <Mail className="w-4 h-4 mr-2" />
                   info@form4design.com
                 </a>

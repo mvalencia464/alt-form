@@ -9,32 +9,28 @@ const Contact = () => {
       label: 'Phone',
       value: '213.444.FORM (3676)',
       href: 'tel:2134443676',
-      color: 'from-green-500 to-emerald-500',
-      glowColor: 'shadow-green-500/25'
+      iconColor: 'bg-teal-600'
     },
     {
       icon: Mail,
       label: 'Email',
       value: 'info@form4design.com',
       href: 'mailto:info@form4design.com',
-      color: 'from-blue-500 to-cyan-500',
-      glowColor: 'shadow-blue-500/25'
+      iconColor: 'bg-blue-600'
     },
     {
       icon: MapPin,
       label: 'Service Area',
       value: 'Nationwide Coverage',
       href: null,
-      color: 'from-purple-500 to-pink-500',
-      glowColor: 'shadow-purple-500/25'
+      iconColor: 'bg-purple-600'
     },
     {
       icon: Clock,
       label: 'Response Time',
       value: 'respond within 1 hour',
       href: null,
-      color: 'from-orange-500 to-red-500',
-      glowColor: 'shadow-orange-500/25'
+      iconColor: 'bg-orange-600'
     }
   ];
 
@@ -67,7 +63,7 @@ const Contact = () => {
                 const Icon = info.icon;
                 const content = (
                   <div className="bg-gradient-to-br from-slate-800/60 to-gray-900/60 backdrop-blur-sm border border-slate-700/50 rounded-xl p-6 transition-all duration-300 group hover:transform hover:scale-105 hover:shadow-xl hover:border-blue-500/30">
-                    <div className="w-12 h-12 rounded-lg bg-blue-600 flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+                    <div className={`w-12 h-12 rounded-lg ${info.iconColor} flex items-center justify-center mb-4 group-hover:scale-110 transition-transform shadow-lg`}>
                       <Icon className="w-6 h-6 text-white" />
                     </div>
                     <div className="text-sm text-gray-400 mb-1">{info.label}</div>
@@ -92,15 +88,15 @@ const Contact = () => {
               <h4 className="text-lg font-semibold text-white mb-4">Why Choose Form4Design?</h4>
               <ul className="space-y-3 text-gray-300">
                 <li className="flex items-center">
-                  <div className="w-2 h-2 rounded-full bg-blue-400 mr-3"></div>
+                  <div className="w-2 h-2 rounded-full bg-yellow-400 mr-3"></div>
                   Free Design and Consultation with approved budget
                 </li>
                 <li className="flex items-center">
-                  <div className="w-2 h-2 rounded-full bg-blue-400 mr-3"></div>
+                  <div className="w-2 h-2 rounded-full bg-orange-400 mr-3"></div>
                   Competitive pricing through strategic planning
                 </li>
                 <li className="flex items-center">
-                  <div className="w-2 h-2 rounded-full bg-blue-400 mr-3"></div>
+                  <div className="w-2 h-2 rounded-full bg-teal-400 mr-3"></div>
                   30 years of industry experience and expertise
                 </li>
                 <li className="flex items-center">
