@@ -25,10 +25,10 @@ const Hero = () => {
         <img
           src="/hero-bg.webp"
           alt=""
-          className="w-full h-full object-cover opacity-40"
+          className="w-full h-full object-cover opacity-30"
         />
         {/* Gradient overlay - fades from left (existing colors) to right (low opacity image) */}
-        <div className="absolute inset-0 bg-gradient-to-r from-gray-900 via-slate-900/60 to-slate-900/20"></div>
+        <div className="absolute inset-0 bg-gradient-to-r from-gray-900 via-slate-900/70 to-slate-900/30"></div>
       </div>
       
       {/* Background Image Grid */}
