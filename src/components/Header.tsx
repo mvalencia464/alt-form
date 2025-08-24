@@ -19,7 +19,6 @@ const Header = () => {
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
-            <a href="#services" className="text-gray-300 hover:text-blue-400 transition-colors relative group">
             <a href="#services" className="text-gray-300 hover:text-yellow-400 transition-colors relative group">
               Services
               <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-yellow-500 group-hover:w-full transition-all duration-300"></span>
