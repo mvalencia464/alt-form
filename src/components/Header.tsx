@@ -58,6 +58,8 @@ const Header = () => {
 
         {/* Mobile Navigation */}
         {isMenuOpen && (
+          )
+          }
           <div className="md:hidden py-4 border-t border-slate-700/30">
             <div className="flex flex-col space-y-4">
               <a
