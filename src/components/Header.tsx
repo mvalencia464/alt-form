@@ -58,8 +58,6 @@ const Header = () => {
 
         {/* Mobile Navigation */}
         {isMenuOpen && (
-          )
-          }
           <div className="md:hidden py-4 border-t border-slate-700/30">
             <div className="flex flex-col space-y-4">
               <a
@@ -90,7 +88,6 @@ const Header = () => {
               >
                 Contact
               </a>
-              <div className="pt-4 border-t border-pink-500/20">
               <div className="pt-4 border-t border-slate-700/30">
                 <a href="tel:2134443676" className="flex items-center text-gray-400 hover:text-blue-400 transition-colors mb-2">
                   <Phone className="w-4 h-4 mr-2" />
