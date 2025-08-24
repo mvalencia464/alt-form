@@ -9,119 +9,119 @@ const Gallery = () => {
     {
       id: 1,
       src: 'https://storage.googleapis.com/msgsndr/rlPIrRx253CZBZYwMMFj/media/68a8bbe21614bd04ceb29f1e.webp',
-      thumbnail: 'https://images.leadconnectorhq.com/image/f_webp/q_80/r_320/u_https://storage.googleapis.com/msgsndr/rlPIrRx253CZBZYwMMFj/media/68a8bbe21614bd04ceb29f1e.webp',
+      thumbnail: 'https://storage.googleapis.com/msgsndr/rlPIrRx253CZBZYwMMFj/media/68a8bbe21614bd04ceb29f1e.webp',
       title: 'Professional Trade Show Display',
       description: 'Elegant booth design with modern branding elements'
     },
     {
       id: 2,
       src: 'https://storage.googleapis.com/msgsndr/rlPIrRx253CZBZYwMMFj/media/68a8bbe23a9e2911afb28d01.webp',
-      thumbnail: 'https://images.leadconnectorhq.com/image/f_webp/q_80/r_320/u_https://storage.googleapis.com/msgsndr/rlPIrRx253CZBZYwMMFj/media/68a8bbe23a9e2911afb28d01.webp',
+      thumbnail: 'https://storage.googleapis.com/msgsndr/rlPIrRx253CZBZYwMMFj/media/68a8bbe23a9e2911afb28d01.webp',
       title: 'Interactive Exhibition Space',
       description: 'Engaging customer experience with multimedia integration'
     },
     {
       id: 3,
       src: 'https://storage.googleapis.com/msgsndr/rlPIrRx253CZBZYwMMFj/media/68a8bbe23a9e29847fb28d11.webp',
-      thumbnail: 'https://images.leadconnectorhq.com/image/f_webp/q_80/r_320/u_https://storage.googleapis.com/msgsndr/rlPIrRx253CZBZYwMMFj/media/68a8bbe23a9e29847fb28d11.webp',
+      thumbnail: 'https://storage.googleapis.com/msgsndr/rlPIrRx253CZBZYwMMFj/media/68a8bbe23a9e29847fb28d11.webp',
       title: 'Corporate Brand Showcase',
       description: 'Sophisticated presentation with premium materials'
     },
     {
       id: 4,
       src: 'https://storage.googleapis.com/msgsndr/rlPIrRx253CZBZYwMMFj/media/68a8bbe254a62612acc87743.webp',
-      thumbnail: 'https://images.leadconnectorhq.com/image/f_webp/q_80/r_320/u_https://storage.googleapis.com/msgsndr/rlPIrRx253CZBZYwMMFj/media/68a8bbe254a62612acc87743.webp',
+      thumbnail: 'https://storage.googleapis.com/msgsndr/rlPIrRx253CZBZYwMMFj/media/68a8bbe254a62612acc87743.webp',
       title: 'Dynamic Product Display',
       description: 'Eye-catching booth with strategic product placement'
     },
     {
       id: 5,
       src: 'https://storage.googleapis.com/msgsndr/rlPIrRx253CZBZYwMMFj/media/68a8bbe254a6266c49c87744.webp',
-      thumbnail: 'https://images.leadconnectorhq.com/image/f_webp/q_80/r_320/u_https://storage.googleapis.com/msgsndr/rlPIrRx253CZBZYwMMFj/media/68a8bbe254a6266c49c87744.webp',
+      thumbnail: 'https://storage.googleapis.com/msgsndr/rlPIrRx253CZBZYwMMFj/media/68a8bbe254a6266c49c87744.webp',
       title: 'Modern Exhibition Design',
       description: 'Contemporary booth with clean lines and bold graphics'
     },
     {
       id: 6,
       src: 'https://storage.googleapis.com/msgsndr/rlPIrRx253CZBZYwMMFj/media/68a8bbe25f2e6e38069baa10.webp',
-      thumbnail: 'https://images.leadconnectorhq.com/image/f_webp/q_80/r_320/u_https://storage.googleapis.com/msgsndr/rlPIrRx253CZBZYwMMFj/media/68a8bbe25f2e6e38069baa10.webp',
+      thumbnail: 'https://storage.googleapis.com/msgsndr/rlPIrRx253CZBZYwMMFj/media/68a8bbe25f2e6e38069baa10.webp',
       title: 'Large Scale Installation',
       description: 'Impressive exhibition setup with commanding presence'
     },
     {
       id: 7,
       src: 'https://storage.googleapis.com/msgsndr/rlPIrRx253CZBZYwMMFj/media/68a8bbe25f2e6e9bb39baa1b.webp',
-      thumbnail: 'https://images.leadconnectorhq.com/image/f_webp/q_80/r_320/u_https://storage.googleapis.com/msgsndr/rlPIrRx253CZBZYwMMFj/media/68a8bbe25f2e6e9bb39baa1b.webp',
+      thumbnail: 'https://storage.googleapis.com/msgsndr/rlPIrRx253CZBZYwMMFj/media/68a8bbe25f2e6e9bb39baa1b.webp',
       title: 'Creative Brand Experience',
       description: 'Innovative design with immersive customer journey'
     },
     {
       id: 8,
       src: 'https://storage.googleapis.com/msgsndr/rlPIrRx253CZBZYwMMFj/media/68a8bbe25f2e6eca709baa11.webp',
-      thumbnail: 'https://images.leadconnectorhq.com/image/f_webp/q_80/r_320/u_https://storage.googleapis.com/msgsndr/rlPIrRx253CZBZYwMMFj/media/68a8bbe25f2e6eca709baa11.webp',
+      thumbnail: 'https://storage.googleapis.com/msgsndr/rlPIrRx253CZBZYwMMFj/media/68a8bbe25f2e6eca709baa11.webp',
       title: 'Premium Trade Show Booth',
       description: 'High-end materials and sophisticated lighting design'
     },
     {
       id: 9,
       src: 'https://storage.googleapis.com/msgsndr/rlPIrRx253CZBZYwMMFj/media/68a8bbe27dc6b0918f8588db.webp',
-      thumbnail: 'https://images.leadconnectorhq.com/image/f_webp/q_80/r_320/u_https://storage.googleapis.com/msgsndr/rlPIrRx253CZBZYwMMFj/media/68a8bbe27dc6b0918f8588db.webp',
+      thumbnail: 'https://storage.googleapis.com/msgsndr/rlPIrRx253CZBZYwMMFj/media/68a8bbe27dc6b0918f8588db.webp',
       title: 'Technology Integration Display',
       description: 'Cutting-edge booth with digital interactive elements'
     },
     {
       id: 10,
       src: 'https://storage.googleapis.com/msgsndr/rlPIrRx253CZBZYwMMFj/media/68a8bbe29c19c00757f1b00d.webp',
-      thumbnail: 'https://images.leadconnectorhq.com/image/f_webp/q_80/r_320/u_https://storage.googleapis.com/msgsndr/rlPIrRx253CZBZYwMMFj/media/68a8bbe29c19c00757f1b00d.webp',
+      thumbnail: 'https://storage.googleapis.com/msgsndr/rlPIrRx253CZBZYwMMFj/media/68a8bbe29c19c00757f1b00d.webp',
       title: 'Engaging Customer Space',
       description: 'Welcoming environment designed for meaningful connections'
     },
     {
       id: 11,
       src: 'https://storage.googleapis.com/msgsndr/rlPIrRx253CZBZYwMMFj/media/68a8bbe29c19c07979f1b00c.webp',
-      thumbnail: 'https://images.leadconnectorhq.com/image/f_webp/q_80/r_320/u_https://storage.googleapis.com/msgsndr/rlPIrRx253CZBZYwMMFj/media/68a8bbe29c19c07979f1b00c.webp',
+      thumbnail: 'https://storage.googleapis.com/msgsndr/rlPIrRx253CZBZYwMMFj/media/68a8bbe29c19c07979f1b00c.webp',
       title: 'Strategic Brand Positioning',
       description: 'Thoughtfully designed space maximizing brand impact'
     },
     {
       id: 12,
       src: 'https://storage.googleapis.com/msgsndr/rlPIrRx253CZBZYwMMFj/media/68a8bbe2b199f3495af4b7aa.webp',
-      thumbnail: 'https://images.leadconnectorhq.com/image/f_webp/q_80/r_320/u_https://storage.googleapis.com/msgsndr/rlPIrRx253CZBZYwMMFj/media/68a8bbe2b199f3495af4b7aa.webp',
+      thumbnail: 'https://storage.googleapis.com/msgsndr/rlPIrRx253CZBZYwMMFj/media/68a8bbe2b199f3495af4b7aa.webp',
       title: 'Multi-Level Exhibition',
       description: 'Complex installation with multiple engagement zones'
     },
     {
       id: 13,
       src: 'https://storage.googleapis.com/msgsndr/rlPIrRx253CZBZYwMMFj/media/68a8bbe2cfc34e6f27546a64.webp',
-      thumbnail: 'https://images.leadconnectorhq.com/image/f_webp/q_80/r_320/u_https://storage.googleapis.com/msgsndr/rlPIrRx253CZBZYwMMFj/media/68a8bbe2cfc34e6f27546a64.webp',
+      thumbnail: 'https://storage.googleapis.com/msgsndr/rlPIrRx253CZBZYwMMFj/media/68a8bbe2cfc34e6f27546a64.webp',
       title: 'Immersive Brand Environment',
       description: 'Complete brand experience with atmospheric design'
     },
     {
       id: 14,
       src: 'https://storage.googleapis.com/msgsndr/rlPIrRx253CZBZYwMMFj/media/68a8bbe2f2837e251fe871a8.webp',
-      thumbnail: 'https://images.leadconnectorhq.com/image/f_webp/q_80/r_320/u_https://storage.googleapis.com/msgsndr/rlPIrRx253CZBZYwMMFj/media/68a8bbe2f2837e251fe871a8.webp',
+      thumbnail: 'https://storage.googleapis.com/msgsndr/rlPIrRx253CZBZYwMMFj/media/68a8bbe2f2837e251fe871a8.webp',
       title: 'Elegant Product Showcase',
       description: 'Refined presentation highlighting key products'
     },
     {
       id: 15,
       src: 'https://storage.googleapis.com/msgsndr/rlPIrRx253CZBZYwMMFj/media/68a8bbe2f2837e350be871a4.webp',
-      thumbnail: 'https://images.leadconnectorhq.com/image/f_webp/q_80/r_320/u_https://storage.googleapis.com/msgsndr/rlPIrRx253CZBZYwMMFj/media/68a8bbe2f2837e350be871a4.webp',
+      thumbnail: 'https://storage.googleapis.com/msgsndr/rlPIrRx253CZBZYwMMFj/media/68a8bbe2f2837e350be871a4.webp',
       title: 'Contemporary Exhibition Stand',
       description: 'Modern design with striking visual elements'
     },
     {
       id: 16,
       src: 'https://storage.googleapis.com/msgsndr/rlPIrRx253CZBZYwMMFj/media/68a8bbe2f2837ea528e871a3.webp',
-      thumbnail: 'https://images.leadconnectorhq.com/image/f_webp/q_80/r_320/u_https://storage.googleapis.com/msgsndr/rlPIrRx253CZBZYwMMFj/media/68a8bbe2f2837ea528e871a3.webp',
+      thumbnail: 'https://storage.googleapis.com/msgsndr/rlPIrRx253CZBZYwMMFj/media/68a8bbe2f2837ea528e871a3.webp',
       title: 'Professional Meeting Space',
       description: 'Dedicated area for client consultations and presentations'
     },
     {
       id: 17,
       src: 'https://storage.googleapis.com/msgsndr/rlPIrRx253CZBZYwMMFj/media/68a8bbe2f2837ec2bee871a2.webp',
-      thumbnail: 'https://images.leadconnectorhq.com/image/f_webp/q_80/r_320/u_https://storage.googleapis.com/msgsndr/rlPIrRx253CZBZYwMMFj/media/68a8bbe2f2837ec2bee871a2.webp',
+      thumbnail: 'https://storage.googleapis.com/msgsndr/rlPIrRx253CZBZYwMMFj/media/68a8bbe2f2837ec2bee871a2.webp',
       title: 'Award-Winning Design',
       description: 'Exceptional booth design recognized for innovation'
     }

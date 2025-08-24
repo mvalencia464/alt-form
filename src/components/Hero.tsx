@@ -26,37 +26,46 @@ const Hero = () => {
           {backgroundImages.map((image, index) => (
             <div
               key={index}
-              className="relative overflow-hidden"
+              className="relative overflow-hidden rounded-lg"
               style={{
                 gridRow: `span ${Math.floor(Math.random() * 2) + 1}`,
-                animationDelay: `${index * 0.5}s`
+                animationDelay: `${index * 0.3}s`
               }}
             >
               <img
                 src={image}
                 alt=""
-                className="w-full h-full object-cover opacity-60 hover:opacity-80 transition-opacity duration-1000"
+                className="w-full h-full object-cover opacity-40 hover:opacity-70 transition-all duration-2000 transform hover:scale-105"
                 style={{
-                  filter: 'grayscale(100%) contrast(1.2)',
+                  filter: 'grayscale(80%) contrast(1.3) brightness(0.8)',
                 }}
               />
+              <div className="absolute inset-0 bg-gradient-to-br from-blue-500/10 to-purple-500/10"></div>
             </div>
           ))}
         </div>
       </div>
       
       {/* Subtle overlay gradient */}
-      <div className="absolute inset-0 bg-gradient-to-br from-slate-900/80 via-gray-900/70 to-slate-800/80"></div>
+      <div className="absolute inset-0 bg-gradient-to-br from-slate-900/85 via-gray-900/75 to-slate-800/85"></div>
       
       {/* Subtle grid pattern */}
-      <div className="absolute inset-0 opacity-5">
+      <div className="absolute inset-0 opacity-8">
         <div className="absolute inset-0" style={{
           backgroundImage: `
-            linear-gradient(rgba(59, 130, 246, 0.1) 1px, transparent 1px),
-            linear-gradient(90deg, rgba(59, 130, 246, 0.1) 1px, transparent 1px)
+            linear-gradient(rgba(59, 130, 246, 0.15) 1px, transparent 1px),
+            linear-gradient(90deg, rgba(59, 130, 246, 0.15) 1px, transparent 1px)
           `,
-          backgroundSize: '60px 60px'
+          backgroundSize: '40px 40px'
         }}></div>
+      </div>
+
+      {/* Animated particles */}
+      <div className="absolute inset-0 overflow-hidden">
+        <div className="absolute top-1/4 left-1/4 w-2 h-2 bg-blue-400/30 rounded-full animate-pulse"></div>
+        <div className="absolute top-1/3 right-1/3 w-1 h-1 bg-purple-400/40 rounded-full animate-pulse" style={{ animationDelay: '1s' }}></div>
+        <div className="absolute bottom-1/4 left-1/3 w-1.5 h-1.5 bg-cyan-400/35 rounded-full animate-pulse" style={{ animationDelay: '2s' }}></div>
+        <div className="absolute bottom-1/3 right-1/4 w-1 h-1 bg-blue-300/30 rounded-full animate-pulse" style={{ animationDelay: '3s' }}></div>
       </div>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
