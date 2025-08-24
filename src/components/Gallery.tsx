@@ -273,4 +273,39 @@ const Gallery = () => {
   );
 };
 
+  // Keyboard navigation
+  React.useEffect(() => {
+    const handleKeyPress = (event: KeyboardEvent) => {
+      if (selectedImage === null) return;
+      
+      switch (event.key) {
+        case 'ArrowLeft':
+          event.preventDefault();
+          prevImage();
+          break;
+        case 'ArrowRight':
+          event.preventDefault();
+          nextImage();
+          break;
+        case 'Escape':
+          event.preventDefault();
+          closeLightbox();
+          break;
+      }
+    };
+
+    if (selectedImage !== null) {
+      document.addEventListener('keydown', handleKeyPress);
+      // Prevent body scroll when lightbox is open
+      document.body.style.overflow = 'hidden';
+    } else {
+      document.body.style.overflow = 'unset';
+    }
+
+    return () => {
+      document.removeEventListener('keydown', handleKeyPress);
+      document.body.style.overflow = 'unset';
+    };
+  }, [selectedImage]);
+
 export default Gallery;
