@@ -64,27 +64,25 @@ const About = () => {
             </div>
           </div>
 
-
-        </div>
-
-        {/* Images Column */}
-        <div className="space-y-6">
-          <div className="relative rounded-2xl overflow-hidden shadow-xl">
-            <img
-              src="https://storage.googleapis.com/msgsndr/rlPIrRx253CZBZYwMMFj/media/689951c7d580d6c4095814fa.webp"
-              alt="Trade Show Exhibition Setup"
-              className="w-full h-64 object-cover"
-            />
-            <div className="absolute inset-0 bg-gradient-to-t from-slate-900/40 to-transparent"></div>
-          </div>
-          
-          <div className="relative rounded-2xl overflow-hidden shadow-xl">
-            <img
-              src="https://storage.googleapis.com/msgsndr/rlPIrRx253CZBZYwMMFj/media/68a8bbe21614bd04ceb29f1e.webp"
-              alt="Professional Trade Show Display"
-              className="w-full h-64 object-cover"
-            />
-            <div className="absolute inset-0 bg-gradient-to-t from-slate-900/40 to-transparent"></div>
+          {/* Images Column */}
+          <div className="space-y-6">
+            <div className="relative rounded-2xl overflow-hidden shadow-xl">
+              <img
+                src="/0.webp"
+                alt="Trade Show Exhibition Setup"
+                className="w-full h-64 object-cover"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-slate-900/40 to-transparent"></div>
+            </div>
+            
+            <div className="relative rounded-2xl overflow-hidden shadow-xl">
+              <img
+                src="/helios.webp"
+                alt="Professional Trade Show Display"
+                className="w-full h-64 object-cover"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-slate-900/40 to-transparent"></div>
+            </div>
           </div>
         </div>
         {/* Value Proposition */}
