@@ -23,7 +23,7 @@ const Hero = () => {
       {/* Hero Background Image */}
       <div className="absolute inset-0">
         <img
-          src="/hero-bg.webp"
+          src="/new-hero.webp"
           alt=""
           className="w-full h-full object-cover opacity-30"
         />
@@ -86,6 +86,14 @@ const Hero = () => {
 
             
             <h1 className="text-4xl lg:text-6xl font-bold text-white mb-6 leading-tight">
+              {/* Five stars above Trade Show */}
+              <div className="flex justify-center lg:justify-start mb-2">
+                {[...Array(5)].map((_, i) => (
+                  <svg key={i} className="w-6 h-6 lg:w-8 lg:h-8 mr-1 text-yellow-400 fill-current" viewBox="0 0 24 24">
+                    <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                  </svg>
+                ))}
+              </div>
               Trade Show
               <span className="block brand-accent">
                 Excellence
@@ -121,8 +129,8 @@ const Hero = () => {
           <div className="relative">
             <div className="relative rounded-2xl overflow-hidden shadow-2xl bg-gradient-to-br from-slate-800/50 to-gray-900/50 backdrop-blur-sm border border-slate-700/50">
               <img
-                src="https://storage.googleapis.com/msgsndr/rlPIrRx253CZBZYwMMFj/media/689951c7d580d6c4095814fa.webp"
-                alt="Trade Show Exhibition"
+                src="/new.png"
+                alt="Form4Design Trade Show Display"
                 className="w-full h-96 lg:h-[500px] object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-slate-900/60 to-transparent"></div>

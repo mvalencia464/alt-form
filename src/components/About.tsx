@@ -31,9 +31,9 @@ const About = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           {/* Content */}
-          <div>
+          <div className="select-text">
             <h2 className="text-4xl font-bold text-white mb-6">
-              Why Choose Form4Design?
+              Why Choose Form<span className="text-yellow-400">4</span>Design?
             </h2>
 
             <p className="text-xl text-gray-300 mb-8 leading-relaxed">
@@ -89,7 +89,7 @@ const About = () => {
         <div className="mt-20 text-center">
           <div className="bg-gradient-to-br from-slate-800/60 to-gray-900/60 backdrop-blur-sm border border-slate-700/50 rounded-2xl p-8 lg:p-12">
             <h3 className="text-3xl font-bold text-white mb-6">
-              The Form4Design Advantage
+              The Form<span className="text-yellow-400">4</span>Design Advantage
             </h3>
             <p className="text-xl text-gray-300 max-w-4xl mx-auto leading-relaxed mb-6">
               What distinguishes Form 4 Design in the trade show industry is our dedication to customer

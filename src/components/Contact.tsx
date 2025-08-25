@@ -28,7 +28,7 @@ const Contact = () => {
     {
       icon: Clock,
       label: 'Response Time',
-      value: 'respond within 1 hour',
+      value: 'Responds in 1 hour',
       href: null,
       iconColor: 'bg-orange-600'
     }
