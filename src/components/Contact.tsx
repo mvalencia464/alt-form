@@ -37,9 +37,9 @@ const Contact = () => {
   return (
     <section id="contact" className="py-20 bg-gradient-to-br from-gray-900 via-slate-900 to-gray-800 relative">
       {/* Background Effects */}
-      <div className="absolute inset-0 opacity-8">
-        <div className="absolute top-1/4 right-1/4 w-96 h-96 bg-purple-500/20 rounded-full blur-3xl"></div>
-        <div className="absolute bottom-1/4 left-1/4 w-96 h-96 bg-cyan-500/20 rounded-full blur-3xl"></div>
+      <div className="absolute inset-0 opacity-8 pointer-events-none">
+        <div className="absolute top-1/4 right-1/4 w-96 h-96 bg-purple-500/20 rounded-full blur-3xl pointer-events-none"></div>
+        <div className="absolute bottom-1/4 left-1/4 w-96 h-96 bg-cyan-500/20 rounded-full blur-3xl pointer-events-none"></div>
       </div>
       
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -58,7 +58,7 @@ const Contact = () => {
           <div>
             <h3 className="text-2xl font-bold text-white mb-8">Get In Touch</h3>
             
-            <div className="grid sm:grid-cols-2 gap-6 mb-8">
+            <div className="grid sm:grid-cols-2 gap-6 mb-8 relative z-0">
               {contactInfo.map((info, index) => {
                 const Icon = info.icon;
                 const content = (
@@ -84,23 +84,23 @@ const Contact = () => {
             </div>
 
             {/* Additional Info */}
-            <div className="bg-gradient-to-br from-slate-800/60 to-gray-900/60 backdrop-blur-sm border border-slate-700/50 rounded-xl p-6">
-              <h4 className="text-lg font-semibold text-white mb-4">Why Choose Form4Design?</h4>
-              <ul className="space-y-3 text-gray-300">
-                <li className="flex items-center">
-                  <div className="w-2 h-2 rounded-full bg-yellow-400 mr-3"></div>
+            <div className="bg-gradient-to-br from-slate-800/60 to-gray-900/60 backdrop-blur-sm border border-slate-700/50 rounded-xl p-6 relative z-10 select-text">
+              <h4 className="text-lg font-semibold text-white mb-4 select-text">Why Choose Form4Design?</h4>
+              <ul className="space-y-3 text-gray-300 select-text">
+                <li className="flex items-center select-text">
+                  <div className="w-2 h-2 rounded-full bg-yellow-400 mr-3 pointer-events-none"></div>
                   Free Design and Consultation with approved budget
                 </li>
-                <li className="flex items-center">
-                  <div className="w-2 h-2 rounded-full bg-orange-400 mr-3"></div>
+                <li className="flex items-center select-text">
+                  <div className="w-2 h-2 rounded-full bg-orange-400 mr-3 pointer-events-none"></div>
                   Competitive pricing through strategic planning
                 </li>
-                <li className="flex items-center">
-                  <div className="w-2 h-2 rounded-full bg-teal-400 mr-3"></div>
+                <li className="flex items-center select-text">
+                  <div className="w-2 h-2 rounded-full bg-teal-400 mr-3 pointer-events-none"></div>
                   30 years of industry experience and expertise
                 </li>
-                <li className="flex items-center">
-                  <div className="w-2 h-2 rounded-full bg-blue-400 mr-3"></div>
+                <li className="flex items-center select-text">
+                  <div className="w-2 h-2 rounded-full bg-blue-400 mr-3 pointer-events-none"></div>
                   Nationwide network of trusted partners
                 </li>
               </ul>

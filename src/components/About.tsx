@@ -23,9 +23,9 @@ const About = () => {
   return (
     <section id="about" className="py-20 bg-gradient-to-br from-slate-800 via-gray-900 to-slate-900 relative">
       {/* Background Effects */}
-      <div className="absolute inset-0 opacity-8">
-        <div className="absolute top-1/3 right-1/3 w-80 h-80 bg-orange-500/20 rounded-full blur-3xl"></div>
-        <div className="absolute bottom-1/3 left-1/3 w-80 h-80 bg-green-500/20 rounded-full blur-3xl"></div>
+      <div className="absolute inset-0 opacity-8 pointer-events-none">
+        <div className="absolute top-1/3 right-1/3 w-80 h-80 bg-orange-500/20 rounded-full blur-3xl pointer-events-none"></div>
+        <div className="absolute bottom-1/3 left-1/3 w-80 h-80 bg-green-500/20 rounded-full blur-3xl pointer-events-none"></div>
       </div>
       
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
